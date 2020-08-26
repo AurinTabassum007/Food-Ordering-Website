@@ -1,0 +1,172 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Left & Right alignment */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+.wrap{overflow:hidden;margin-left:-5px;padding-left:5px}
+/* Global properties */
+body {background:url(../images/bg_bot.jpg) center 0 repeat #000000;border:0;font:14px Georgia, "Times New Roman", Times, serif;color:#200;line-height:24px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
+/* Global Structure */
+.main {	margin:0 auto;}
+.body1 {background:url(../images/bg_top_img.jpg) top center no-repeat #fffafa;}
+.body2 {background:#ffffff} 
+.body3 {background:url(../images/bg_bot.jpg) top center repeat}
+.body4 {background-color:#ffffff}
+.body5 {background:url(../images/slider_shadow.png) center 508px no-repeat}
+.body6 {background:url(../images/bg_top.jpg) top repeat-x}
+
+/* main layout */
+a {color:#0a0a0a;text-decoration:none;outline:none}
+a:hover {text-decoration:underline}
+h1 {float:left;padding:0px 0 0 36px}
+h2 {font-size:38px;line-height:1.2em;color:#200000;padding:16px 0 12px 0;letter-spacing:-2px}
+h2.letter_spacing {letter-spacing:-3px}
+h3 {font-size:27px;color:#230000;line-height:1.2em;padding:20px 0 9px 0;letter-spacing:-1px}
+h3 span {color:#a80002}
+p {padding-bottom:24px}
+
+
+/* header */
+header {height:120px;padding-top:31px;width:100%;overflow:hidden}
+
+#top_nav {padding:5px 40px 30px 0;background-color: #fcf151}
+#top_nav li p {float: left; margin-left:15px}
+#top_nav li {float:center; padding:3px 26px 5px 0; background:none right 0 no-repeat;margin-right:25px}
+#top_nav li a {display:block;line-height:0;float: right}
+#top_nav .end {background:none ; padding-right:0;margin-right:0}
+
+
+#menu {float:center;padding:4px 40px 70px 0; background-color:#000000}
+#menu li {float:right;padding-left:3px}
+#menu li a {display:block;font-size:20px;color:#ffffff;line-height:50px;padding:0 40px;height:50px;letter-spacing:-1px}
+#menu li a:hover, #menu .active a {text-decoration:none;background:#f5ff96; color: #000000; padding:4px 40px 70px 0 repeat}
+
+
+.slider_bg {width:100%;height:404px;background-color:#e8fa8c; 0 0 no-repeat;position:relative;overflow:hidden;box-shadow:0 0 5px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 5px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 5px rgba(0, 0, 0, .4);margin-bottom:35px}
+.slider {top:10px;right:10px;position:absolute;z-index:1;width:920px}
+.slider .items {display:none}
+.slider .pic {float:right;position:relative}
+
+.banner {left:0px;top:0;position:absolute;width:271px;z-index:2;text-align:center}
+.banner strong {font-size:52px;color:#bf0f0a;display:block;line-height:1.2em;text-transform:uppercase;padding:55px 0 0 0;letter-spacing:-2px}
+.banner strong span {display:block;margin-top:-16px}
+.banner b {display:block;font-size:24px;color:#000000;text-transform:uppercase;padding:100px 0 23px 0;line-height:1.5em;letter-spacing:-1px}
+.banner p {background:none 0 0 no-repeat}
+.banner p span {display:block;background:url(../images/quot2.png) right bottom no-repeat;padding:0 0 0 0;color:#6c5f5b;padding-bottom:2px}
+
+.slider .pagination {position:absolute;z-index:2;bottom:10px;left:107px}
+.slider .pagination li {float:left;padding-right:3px}
+.slider .pagination a {display:block;width:17px;height:17px;text-indent:-9999px;background:url(../images/buttons.png) right 0 no-repeat}
+.slider .pagination a:hover, .slider .pagination .current a {background-position:left}
+
+
+#cart a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#cart a:hover {
+  background-color: #85d49a;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+#cart {background-color:#d7e6f5; float: center; padding: 10px}
+#cart li{margin-left: 10px}
+#cart h4 {margin-left:10px}
+#cart {margin-left: 10 px}
+#cart p{float:right; margin-right:10px}
+
+
+/* content */
+
+#content {padding-bottom:40px}
+#content2 {padding-bottom:31px; background-color: #d7e6f5}
+.pad_left1 {padding-left:30px}
+.pad_bot1 {padding-bottom:13px}
+.pad_bot2 {padding-bottom:24px}
+.marg_right1 {margin-right:20px}
+
+
+#content3 h3 {padding-left: 350px}
+#content3 h5 {padding-left: 250px}
+#content3 a img {padding-left:200px }
+.container1 {float: center; padding-bottom: 30px}
+
+
+/* footer */
+footer .main-footer{	padding: 20px 0;	background: #000000;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+.left {
+  width: 33.3%; float:left
+}
+
+.middle {
+  width: 33.3%; float:right
+}
+.right {
+  width: 33.3%; 
+}
+
+
+/* Footer Top */
+.footer-top{	background: none;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{	background: #f9f9f9;}
+footer.light .main-footer{	background: #f9f9f9;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+
+.widget li a{	color: #ff8d1e;}
+.widget li a:hover{	color: #4b92dc;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	color: #fff;}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+
+.btn{background-color: #ff8d1e; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+
+}
+#icons {padding:5px 0 0 0}
+#icons li {float:left;padding-right:9px}
